@@ -1,5 +1,4 @@
-sinh@sinh:~/Desktop/mnm$ **gcc -v**
-
+    **sinh@sinh:~/Desktop/mnm$ gcc -v**
     Using built-in specs.
     COLLECT_GCC=gcc
     COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
