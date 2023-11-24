@@ -52,15 +52,6 @@ int main() {
   printf("Max CPUID call = %d\n", get_max_cpuid_call() ); 
   print_ids();
   print_cpu_information( get_cpu_information() ); printf("\n");
-
-  int a,b,c,d;
-  a=0;
-  c=0;
-  cpuid(&a,&b,&c,&d);
-  printf("EAX: %08x\n", a);
-    printf("EBX: %08x\n", b);
-    printf("ECX: %08x\n", c);
-    printf("EDX: %08x\n", d);
-
   return 0;
 }
+
